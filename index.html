@@ -4,11 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Ebay Tailwind</title>
 </head>
 
 <body>
-    <h1>Hello Ebay Tailwind, more... </h1>
+    <section class="flex justify-between items-center pt-2 w-full px-6 md:w-10/12 mx-auto">
+        <aside>
+            <ul class="flex gap-3">
+                <li class="text-xs">Hi, Signin or register</li>
+                <li class="text-xs font-semibold">Deal</li>
+                <li class="text-xs font-semibold">Brand Outlet</li>
+                <li class="text-xs font-semibold">Help & Contact</li>
+            </ul>
+        </aside>
+        <aside>
+            <ul class="flex gap-6">
+                <li class="text-xs text-black">Ship to</li>
+                <li class="text-xs text-black cursor-pointer relative group">
+                    Sell
+                    <div
+                        class="hidden cursor-default group-hover:block absolute top-5 -left-15 bg-white shadow-lg p-4 min-w-[350px] p-3 rounded-lg border border-gray-200">
+                        <p class="font-bold text-lg">Start selling in a snap</p>
+                        <p class="text-sm text-gray-600">List your items and start making money today!</p>
+                        <br>
+                        <ul class="block">
+                            <li class="text-sm text-gray-600"> - Listing is easy, and faster than ever in the app</li>
+                            <li class="text-sm text-gray-600"> - Reach more buyers with our marketing tools</li>
+                            <li class="text-sm text-gray-600"> - Get paid quickly and securely</li>
+                        </ul>
+
+                        <button
+                            class="w-full cursor-pointer text-lg font-semibold p-3 rounded-full bg-blue-600 text-white mt-4 hover:bg-blue-700">
+                            Start Selling
+                        </button>
+
+                        <button
+                            class="w-full mt-3 border p-3 text-lg font-semibold cursor-pointer border-gray-300 rounded-full">
+                            Download app
+                        </button>
+                    </div>
+                </li>
+                <li class="text-xs text-black">Watchlist</li>
+                <li class="text-xs text-black">My ebay</li>
+            </ul>
+        </aside>
+    </section>
+    <hr class="my-5 border-gray-200">
+    <div class="w-full md:w-10/12 px-6 mx-auto my-3">
+        <h4 class="text-lg font-bold">The furture in you hands</h4>
+    </div>
+    <section class="w-full px-6 md:w-10/12 mx-auto flex gap-5 overflow-x-scroll">
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/SwAAAeSwvwZpqvtW/s-l500.webp" alt="laptop">
+            </div>
+            Laptops
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/Dz0AAeSwpDhpqvtW/s-l500.webp" alt="keyboard">
+            </div>
+            Keyboards
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/Rp0AAeSw2yNpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/O~AAAeSwcIZpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/DaUAAeSwYXxpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/JmMAAeSwUztpqvu5/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/RusAAeSw0uxpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+    </section>
+
+
+    <div class="w-full md:w-10/12 px-6 mx-auto my-3">
+        <h4 class="text-lg font-bold">Another Section</h4>
+    </div>
+    <section class="w-full px-6 md:w-10/12 mx-auto flex gap-5 flex-wrap">
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/SwAAAeSwvwZpqvtW/s-l500.webp" alt="laptop">
+            </div>
+            Laptops
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/Dz0AAeSwpDhpqvtW/s-l500.webp" alt="keyboard">
+            </div>
+            Keyboards
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/Rp0AAeSw2yNpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/O~AAAeSwcIZpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/DaUAAeSwYXxpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/JmMAAeSwUztpqvu5/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+
+        <aside>
+            <div class="bg-gray-300 w-48 h-48 rounded-xl overflow-hidden border border-gray-200">
+                <img src="https://i.ebayimg.com/images/g/RusAAeSw0uxpqvtW/s-l500.webp" alt="Phone">
+            </div>
+            Phones
+        </aside>
+    </section>
 </body>
 
 </html>
